@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/home",
+    "components/home1/home1",
+    "components/home2/home2"
+  ],
+  "window": {
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

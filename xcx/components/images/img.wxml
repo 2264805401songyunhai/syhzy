@@ -1,0 +1,4 @@
+<!--components/images/img.wxml-->
+<view>
+  <text>{{data}}</text>
+</view>

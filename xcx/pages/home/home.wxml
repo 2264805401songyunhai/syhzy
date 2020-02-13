@@ -1,0 +1,5 @@
+<view>
+<images data="{{a}}"/>
+</view>
+<text bind:tap="onClick">点击我</text>
+
