@@ -12,7 +12,14 @@ Component({
   data: {
 
   },
- 
+  methods:{
+    onTap(evt){
+      this.triggerEvent('onClick',{
+        name:"小花",
+        age:25
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

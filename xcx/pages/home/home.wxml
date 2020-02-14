@@ -1,5 +1,6 @@
 <view>
-<images data="{{a}}"/>
+<images data="{{a}}" bind:onClick="onClick"/>
+{{b}}
 </view>
 <text bind:tap="onClick">点击我</text>
 

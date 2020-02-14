@@ -1,4 +1,5 @@
 <!--components/images/img.wxml-->
 <view>
   <text>{{data}}</text>
+  <button bind:tap="onTap">子传父</button>
 </view>

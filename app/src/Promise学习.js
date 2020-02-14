@@ -35,3 +35,22 @@
 //       .catch(err => reject(err))
 //   })
 // }
+// Promise.all()
+// 将多个peomise实例包装成为一个新的promise实例
+// 例如：var p=Promise.all([p1,p2,p3])
+// 按照顺序挨个执行，只有p1,2,3全部状态为fulfilled时候p的状态才会是fulfilled
+// 只要有一个为rejected的p的状态就会成为rejected
+
+
+// Promise.resolve将现有的对象转换为Promise对象
+// Promise.resolve('foo')==new Promise(resolve => resolve('foo'))这两种写法是相互等价的
+// Promise.resolve方法的参数分成四种情况
+//参数为一个Promise不做任何修改，原封不动进行返回
+//参数为一个then方法的对象，promise.resolve会自动进行执行then方法
+//参数不是对象，直接输出对应绑定的值
+//参数为空，那就是个空的peomise对象
+
+// Promise.reject()
+//用法和Promise.resolve相完全一致，不过它返回的实例状态为rejected
+
+

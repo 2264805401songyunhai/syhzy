@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    a:"宋云海嗨嗨"
+    a:"宋云海嗨嗨",
+    b:""
   },
 
   /**
@@ -32,7 +33,12 @@ Page({
   onShow: function () {
 
   },
-
+  onClick(options){
+    console.log(options.detail)
+    this.setData({
+      b:options.detail.name
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
