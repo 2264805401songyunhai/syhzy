@@ -52,6 +52,10 @@
 
 // Promise.reject()
 //用法和Promise.resolve相完全一致，不过它返回的实例状态为rejected
+//参数为一个Promise不做任何修改，原封不动进行返回
+//参数为一个then方法的对象，promise.resolve会自动进行执行then方法
+//参数不是对象，直接输出对应绑定的值
+//参数为空，那就是个空的peomise对象
 
 //用法
 // let path = "./2.jpg"//正确的图片路径为./1.jpg，现在的路径是错误的
