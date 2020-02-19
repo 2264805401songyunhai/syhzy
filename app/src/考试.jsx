@@ -78,6 +78,19 @@ export default class componentName extends Component {
     //     console.log(res)
     //   })
     // })
+    //老师写法
+    // new Promise(resolve => {
+    //   setTimeout(() => resolve(1), 3000)
+    // })
+    //   .then(res => {
+    //     console.log(1)
+    //     return new Promise(resolve => {
+    //       setTimeout(() => resolve(2), 3000)
+    //     })
+    //       .then(res => {
+    //         console.log(res)
+    //       })
+    //   })
 
     //第七题
     // const get = function (add) {//声明一个函数里面去请求接口
@@ -86,7 +99,7 @@ export default class componentName extends Component {
     //       method: "get",
     //       url: "https://blogs.zdldove.top/Home/Apis/listWithPage"
     //     })
-        
+
     //       .then(res => {
     //         console.log(add)
     //         reslove(res)
@@ -129,7 +142,7 @@ export default class componentName extends Component {
     //   position: sticky;
     //   top: 0;//不仅只有top还有left,right,bottom一旦你的这个盒子的位置到达的你属性所规定的像素，就是粘合到对应的位置
     // }
-    
+
   }
   render() {
     return (
